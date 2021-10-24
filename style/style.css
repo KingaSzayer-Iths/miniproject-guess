@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 100%;
+}
+
+header {
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-color {
+    background-color: green;
+}
+
+.play-button {
+    
+}
+
+main {
+    flex: 1;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spades {
+    background-image: url("../Images/spade.png");
+}
+.hearts {
+    background-image: url("../Images/heart.png");
+}
+.diamonds {
+    background-image: url("../Images/diamond.png");
+}
+.clubs {
+    background-image: url("../Images/club.png");
+}
+.card {
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+    max-width: 200px;
+    min-width: 200px;
+    background-color: white;
+}
+
+.card-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
